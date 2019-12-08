@@ -1,2 +1,6 @@
-# i18n-provider
-I18n Provider for ReactJs Applications with Context API
+---
+title: "i18n Provider"
+author: "Ram"
+---
+
+### I18n-Provider
