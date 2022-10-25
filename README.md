@@ -31,7 +31,7 @@ const withI18n = WithI18n;
 
 const I18nProvider = ({ labels: messages = {}, defaultLocale, children }) => {
   // labels should be an object with key values pair
-  const labels = Object.keys(messages).length ? messages : {};
+  const labels = messages || {};
   const locale = localStorage.getItem("locale") || defaultLocale;
   const [state, setState] = useState({ locale, labels });
 
